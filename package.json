@@ -1,0 +1,77 @@
+{
+  "name": "client",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    
+    "@mui/styled-engine": "^5.15.9",
+    "@emotion/react": "^11.11.3",
+    "@emotion/styled": "^11.11.0",
+    "@heroicons/react": "^2.1.1",
+    "@mui/material": "^5.7.0",
+    "@material-tailwind/react": "^2.1.9",
+    "@testing-library/jest-dom": "^5.16.4",
+    "@testing-library/react": "^13.2.0",
+    "@testing-library/user-event": "^13.5.0",
+    "antd": "^5.13.3",
+    "autoprefixer": "^10.4.17",
+    "aws-sdk": "^2.1540.0",
+    "axios": "^0.27.2",
+    "caniuse-lite": "^1.0.30001582",
+    "chart": "^0.1.2",
+    "chart.js": "^4.4.2",
+    "cors": "^2.8.5",
+    "moment": "^2.30.1",
+    "mongoose": "^8.0.3",
+    "ng2-charts": "^6.0.0",
+    "postcss": "^8.4.35",
+    "react": "^18.1.0",
+    "react-dom": "^18.1.0",
+    "react-icons": "^5.0.1",
+    "react-redux": "^7.2.5",
+    "react-router-dom": "^6.3.0",
+    "react-scripts": "5.0.1",
+    "react-slick": "^0.30.1",
+    "react-spinners": "^0.13.8",
+    "react-stripe-checkout": "^2.6.3",
+    "redux": "^4.2.1",
+    "redux-devtools-extension": "^2.13.9",
+    "redux-thunk": "^2.4.0",
+    "scss": "^0.2.4",
+    "slick-carousel": "^1.8.1",
+    "sweetalert": "^2.1.2",
+    "sweetalert2": "^11.10.6",
+    "sweetalert2-react-content": "^5.0.7",
+    "web-vitals": "^2.1.4"
+  },
+  "devDependencies": {
+    "@types/react-redux": "^7.1.20",
+    "tailwindcss": "^3.4.1"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "build:css": "postcss tailwindcss.css -o output.css"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "proxy": "http://localhost:6005",
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}

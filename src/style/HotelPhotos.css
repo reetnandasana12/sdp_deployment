@@ -1,0 +1,60 @@
+/* HotelPhotos.css */
+
+/* Ensure proper spacing and centering */
+.photo-slider {
+  margin: 100% auto; /* Center the slider */
+}
+
+/* Center the photo items */
+.photo-item {
+  text-align: center;
+}
+
+/* Ensure images fill the slider width */
+.photo-item img {
+  width: 50%;
+  height: 50%;
+  cursor: pointer;
+}
+
+/* Modal overlay styles */
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(135, 56, 56, 0.7);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Modal styles */
+.modal {
+  position: relative; 
+}
+
+/* Close button styles */
+.close-button {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  color: #fff;
+  font-size: 0%;
+  cursor: pointer;
+}
+
+/* Ensure images inside the modal fit properly */
+.modal img {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain; /* Ensure image fits inside modal */
+}
+
+.modal-image{
+  height: 1000px;
+  width: 1000px;
+}
+
+

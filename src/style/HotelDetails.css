@@ -1,0 +1,107 @@
+/* HotelDetails.css */
+
+/* Ensure proper spacing */
+.photo-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px; /* Adjust margin-top as needed */
+}
+
+/* Center the slider */
+.photo-slider {
+  width: 20%; /* Adjust slider width as needed */
+  margin: 0 auto;
+}
+
+/* Ensure each photo item is centered */
+.photo-item {
+  width: 100%;
+  height: auto;
+  text-align: center;
+}
+
+/* Set max-height to ensure uniformity */
+.photo-item img {
+  max-width: 100%;
+  max-height: 400px; /* Adjust max-height as needed */
+  object-fit: cover;
+}
+
+/* Modal overlay styles */
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Modal styles */
+.modal {
+  position: relative;
+}
+
+/* Ensure images inside the modal fit properly */
+.modal img {
+  max-width: 90%;
+  max-height: 90%;
+}
+
+/* Close button styles */
+.close-button {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  background-color: #ff5a5f; /* Red color for close button */
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+/* HotelPhotos.css */
+
+/* Ensure proper spacing and centering */
+.photo-slider {
+  width: 80%; /* Adjust as needed */
+  margin: 0 auto; /* Center the slider */
+}
+
+/* Center the photo items */
+.photo-item {
+  text-align: center;
+}
+
+/* Ensure images fill the slider width */
+.photo-item img {
+  width: 100%;
+  height: auto;
+  cursor: pointer;
+}
+
+/* Modal fullscreen photo */
+.fullscreen-photo {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.fullscreen-photo img {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
+}
+
